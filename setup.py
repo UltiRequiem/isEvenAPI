@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name="isEvenAPI",
     packages=["is_even"],
-    version="2.1",
+    version="2.2",
     license="MIT",
     description="API Wrapper for the isEven api.",
     author="Eliaz Bobadilla",

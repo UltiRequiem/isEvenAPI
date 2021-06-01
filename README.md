@@ -65,4 +65,4 @@ def is_even(number):
 
 ### Note:
 
-I did this because I'm learning how to upload packages to [PYPI](https://pypi.org/project/isEvenAPI) with GItHub actions.
+I did this because I'm learning how to upload packages to [PYPI](https://pypi.org/project/isEvenAPI) with GitHub actions.
