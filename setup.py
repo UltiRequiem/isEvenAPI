@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name="IsEvenPy",
+    name="isEvenAPI",
     packages=["is_even"],
     version="1.0",
     license="MIT",
