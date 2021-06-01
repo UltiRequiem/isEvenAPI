@@ -33,5 +33,36 @@ from is_even import is_even as ie
 print(ie.is_even(10)) # True
 print(ie.is_odd(10)) # False
 
-print(ie.ad(78)) # And Add
+print(ie.ad(78)) # An Ad
+print(ie.ad_without_number()) # An Ad without passing a number
 ```
+
+### Alternatives
+
+This Function:
+
+```python
+def is_even(number):
+    return False if number & 1 else True
+```
+
+Or This other:
+
+```python
+def is_even(number):
+    return False if number % 2 else True
+```
+
+Or a longer one:
+
+```python
+def is_even(number):
+    if number % 2:
+        return False
+    else:
+        return True
+```
+
+### Note:
+
+I did this because I'm learning how to upload packages to [PYPI](https://pypi.org/project/isEvenAPI) with GItHub actions.
