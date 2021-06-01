@@ -4,8 +4,8 @@ def main(number):
     if ie.is_even(number) == True:
         print("Your number is even!")
     else:
-        "You number is not even."
+        print("You number is not even.")
 
 
 if __name__ == "__main__":
-    main(2)
+    main(8)
