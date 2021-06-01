@@ -50,7 +50,7 @@ Or This other:
 
 ```python
 def is_even(number):
-    return False if number % 2 else True
+    return number % 2 == 0
 ```
 
 Or a longer one:
