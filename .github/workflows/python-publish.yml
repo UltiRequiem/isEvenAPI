@@ -1,7 +1,6 @@
 name: Build and publish to PyPI 📦
 on:
-  push:
-    branches: [ main ]
+  release
 
 jobs:
   deploy:
