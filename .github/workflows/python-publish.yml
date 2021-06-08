@@ -1,6 +1,9 @@
 name: Build and publish to PyPI 📦
 on:
-  release
+  push:
+    tags:
+      - "v*.*.*"
+
 
 jobs:
   deploy:
