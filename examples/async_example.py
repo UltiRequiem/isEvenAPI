@@ -1,6 +1,7 @@
 import asyncio
 from is_even import is_even_async as ie
 
+
 def main(number):
     ie.is_even(number)
 

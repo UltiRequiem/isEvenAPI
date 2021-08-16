@@ -6,12 +6,11 @@
 <a href="https://pepy.tech/project/isevenapi"><img alt="Downloads" src="https://pepy.tech/badge/isevenapi"></a>
 <a href="https://github.com/UltiRequiem/isEven.py"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
 <a href="https://github.com/UltiRequiem/isEven.py"><img alt="Code style: black" src="https://img.shields.io/tokei/lines/github.com/UltiRequiem/isEven.py?color=blue&label=Total%20Lines"></a>
-
 </p>
 
 Check if an integer is even using the [isEven API](https://isevenapi.xyz).
 
-## Main features:
+## Main features
 
 - Cache Memorization
 - API Retry Handler
@@ -65,6 +64,7 @@ def is_even(number):
         return True
 ```
 
-### Note:
+### Note
 
-I did this because I'm learning how to upload packages to [PYPI](https://pypi.org/project/isEvenAPI) with GitHub actions.
+I did this because I'm learning how to upload packages to
+[PYPI](https://pypi.org/project/isEvenAPI) with GitHub actions.

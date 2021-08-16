@@ -10,6 +10,7 @@ from retry import retry
 
 API_URL = "https://api.isevenapi.xyz/api/iseven/"
 
+
 @lru_cache(maxsize=None)
 @retry(ConnectionError, tries=3, delay=2)
 def is_even(number: int) -> bool:
@@ -24,6 +25,7 @@ def is_even(number: int) -> bool:
         return r.json()["iseven"]
     else:
         raise Exception(r.json()["error"])
+
 
 def is_odd(number: int) -> bool:
     """Returns if it is odd.
