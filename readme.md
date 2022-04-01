@@ -38,6 +38,8 @@ print(is_odd(10)) # False
 print(adverstiment()) # An Advertisement
 ```
 
+Check the [`examples/`](./examples) directory for more information.
+
 ## Alternatives
 
 A simpler aproach 👇
