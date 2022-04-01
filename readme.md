@@ -61,6 +61,15 @@ my work 🚀
 
 Don't forget to start the repo ⭐
 
+## Authors
+
+[Eliaz Bobadilla (a.k.a UltiRequiem)](https://ultirequiem.com) - Creator and
+Maintainer 💪
+
+See also the full list of
+[contributors](https://github.com/UltiRequiem/isEvenAPI/contributors) who
+participated in this project.
+
 ## Versioning
 
 We use [SemVer](http://semver.org) for versioning. For the versions available,
