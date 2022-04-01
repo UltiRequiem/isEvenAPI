@@ -51,6 +51,26 @@ def is_even(number):
     return number % 2 == 0
 ```
 
+## CLI Tool
+
+The installation process is the same as before.
+
+The normal way 🧐
+
+```sh
+is_even 6 2
+True
+True
+```
+
+Or with the verbose mode 🍹
+
+```sh
+is_even 6 2 --verbose
+6 is even.
+2 is even.
+```
+
 ## Support
 
 Open an Issue, I will check it a soon as possible 👀
