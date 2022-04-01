@@ -8,7 +8,3 @@ class TestEven(unittest.TestCase):
 
     def test_even_false(self):
         self.assertFalse(is_even(7))
-
-
-if __name__ == "__main__":
-    unittest.main()
