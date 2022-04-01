@@ -1,15 +1,28 @@
-from setuptools import setup
+from setuptools import setup, find_packages
+
+with open("README.md", "r", encoding="utf-8") as readme:
+    long_description = readme.read()
+with open("requirements.txt", "r", encoding="utf-8") as requirement:
+    requirements = requirement.read()
 
 setup(
     name="isEvenAPI",
-    packages=["is_even"],
+    packages=find_packages(),
     version="3.0",
-    license="MIT",
-    description="API Wrapper for the isEven API.",
     author="Eliaz Bobadilla",
+    author_email="eliaz.bobadilladev@gmail.com",
     url="https://github.com/UltiRequiem/isEvenAPI",
-    keywords=["api", "isEven", "math", "even", "odd"],
-    long_description=open("readme.md").read(),
+    description="API Wrapper for the isEven API.",
+    long_description=long_description,
     long_description_content_type="text/markdown",
-    install_requires=["requests==2.25.1", "retry==0.9.2"],
+    license="MIT",
+    keywords=["api", "isEven", "math", "even", "odd"],
+    install_requires=[requirements],
+    classifiers=[
+        "Operating System :: OS Independent",
+    ],
+    entry_points="""
+        [console_scripts]
+        is_even=is_even:__main__
+    """,
 )
