@@ -1,4 +1,2 @@
 env/
-is_even/__pycache__
-.pytype/
-examples/__pycache__
+__pycache__/
