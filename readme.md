@@ -1,5 +1,7 @@
 # isEvenAPI
 
+[![codecov](https://codecov.io/gh/ultirequiem/isEvenAPI/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/isEvenAPI)
+
 The premier Python package for checking the even-ness of a number via an API.
 Built-ins are overrated, microservices are always best, regardless of scope. I
 read it in a medium article, so...
