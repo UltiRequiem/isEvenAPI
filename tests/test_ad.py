@@ -7,6 +7,5 @@ class TestEven(unittest.TestCase):
         self.assertIsInstance(adverstiment(), str)
 
 
-
 if __name__ == "__main__":
     unittest.main()

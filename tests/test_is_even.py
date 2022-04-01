@@ -1,5 +1,5 @@
 import unittest
-from is_even import is_even 
+from is_even import is_even
 
 
 class TestEven(unittest.TestCase):
