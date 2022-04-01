@@ -1,13 +1,13 @@
 import unittest
-from is_even import is_even as ie
+from is_even import is_odd
 
 
 class TestEven(unittest.TestCase):
     def test_even_true(self):
-        self.assertTrue(ie.is_odd(3))
+        self.assertTrue(is_odd(3))
 
     def test_even_false(self):
-        self.assertFalse(ie.is_odd(4))
+        self.assertFalse(is_odd(4))
 
 
 if __name__ == "__main__":

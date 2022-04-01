@@ -1,13 +1,11 @@
 import unittest
-from is_even import is_even as ie
+from is_even import adverstiment
 
 
 class TestEven(unittest.TestCase):
     def test_ad(self):
-        self.assertIsInstance(ie.ad(2), str)
+        self.assertIsInstance(adverstiment(), str)
 
-    def test_ad_without_number(self):
-        self.assertIsInstance(ie.ad_without_number(), str)
 
 
 if __name__ == "__main__":
