@@ -1,4 +1,4 @@
-certifi==2021.5.30
+certifi==2022.12.7
 coverage==6.3.2
 chardet==4.0.0
 decorator==5.0.9
